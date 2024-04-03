@@ -7,6 +7,14 @@ body, html {
     height: fit-content;
 }
 
+#scoreDisplay{
+  font-size: 23px;
+}
+
+#answerInput{
+  font-size: 15px;
+}
+
 .background{
     top: 0;
     left: 0;

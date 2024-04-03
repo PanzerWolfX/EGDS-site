@@ -7,7 +7,7 @@ let questions = [
   "Is the EMBT-02 only manned?",
   "What are the Streider's targets? Light, Heavy or both?",
   "What vehicle features the 200mm cannon?",
-  "Are the Ehb and Hekurani stealth?",
+  "Are the EHB and Hekurani stealth?",
   "What is the Mirage's max range without refuel?",
   "Is the EAASSF manned?",
   "What unit is most commonly seen alongside EMRPFs?",
