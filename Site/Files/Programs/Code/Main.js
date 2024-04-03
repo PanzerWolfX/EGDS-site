@@ -1,16 +1,32 @@
 const TITLE = 'Quiz';
 
 let questions = [
-  "What was the name of the clone commander that last served Kenobi?",
-  "What is the name of the thing that allows you to type?",
-  "What is the name of the General of the droid army in Star Wars?"
+    "What was the name of the clone commander that last served Kenobi?",
+    "What is the name of the thing that allows you to type?",
+    "What is the name of the General of the droid army in Star Wars?"
 ];
 
-let answers = [        
-"Cody",
-"Keyboard",
-"Grievous"
+let answers = [
+    "Cody",
+    "Keyboard",
+    "Grievous"
 ];
+
+let score = 0;
+
+function getRandomIndex(max) {
+    return Math.floor(Math.random() * max);
+}
+
+function getRandomQuestion(questions) {
+    const index = getRandomIndex(questions.length);
+    return questions[index];
+}
+
+function displayRandomQuestion() {
+    const randomQuestion = getRandomQuestion(questions);
+    document.getElementById('question').innerText = randomQuestion;
+}
 
 function checkAnswer() {
   const userAnswer = document.getElementById('answerInput').value.trim();
@@ -37,10 +53,11 @@ document.getElementById('scoreDisplay').innerText = "Score: " + score;
 
 document.getElementById('submitAnswer').addEventListener('click', checkAnswer);
 
-document.getElementById('generateQuestion').addEventListener('click', generateNewQuestion);
+document.getElementById('submitAnswer').addEventListener('click', generateNewQuestion);
 
 document.getElementById('answerInput').addEventListener('keypress', function (e) {
   if (e.key === 'Enter') {
       checkAnswer();
+      generateNewQuestion();
   }
 });

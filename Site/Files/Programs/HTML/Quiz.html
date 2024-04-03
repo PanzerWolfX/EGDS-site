@@ -1,13 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Quiz</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-    <h1 id="question"></h1>
-    <button id="generateQuestion">Generate New Question</button>
+  <link rel="stylesheet" href="../../CSS/Pres_style.css">
 
-    <script src="../Code/Main.js"></script>
-</body>
+  <link rel="icon" href="../../Media/Images/LogoTrsp.png" type="image/png">
+
+  <title>EGDS - Quiz</title>
+
+  <div class="background">
+
+  <div class="banner">
+    <table>
+      <tr class="transparent">
+        <td ><a href="../../../Main_Page.html"><img src="../../Media/Cripticmedia/Images/LogoTrsp.png" width="100" height="100"></a></td>
+        <td class="centertitle"><h1 id="title"> EuroGuardian Defense Solutions</h1></td>
+        <td ><a href="../../../Main_Page.html"><img src="../../Media/Cripticmedia/Images/LogoTrsp.png" width="100" height="100"></a></td>
+      </tr>
+    </table>
+  </div>
+</head>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="centercontent">
+    <body>
+        <h1 id="question"></h1>
+        <input type="text" id="answerInput" placeholder="Enter your answer">
+        <button id="submitAnswer">Submit</button>
+        <div id="scoreDisplay"></div>
+        <script src="../Code/Main.js"></script>
+    </body>
+</div>
 </html>
