@@ -1,0 +1,69 @@
+.background{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background-image: url('../Media/Images/sfondo_sito1.png');
+    filter: blur(3px) brightness(30%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.backgroundRLE{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    z-index: -1;
+    background-image: url('../Media/Cripticmedia/RedemptionLegion/Bkg.jpeg');
+    filter: blur(3px) blur(3px) brightness(30%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.backgroundSED{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    z-index: -1;
+    background-image: url('../Media/Cripticmedia/StahlEngel/Background.jpg');
+    filter: blur(3px) brightness(50%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.backgroundTHU{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    z-index: -1;
+    background-image: url('../Media/Cripticmedia/TaevasHüpe_Üksus/BKG.jpeg');
+    filter: blur(3px) brightness(50%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.backgroundSVD{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    z-index: -1;
+    background-image: url('../Media/Cripticmedia/Stille Vogler/Bkg.jpeg');
+    filter: blur(3px) brightness(50%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

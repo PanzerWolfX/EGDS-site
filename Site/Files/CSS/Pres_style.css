@@ -1,0 +1,244 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family:sans-serif;
+    height: fit-content;
+}
+
+.background{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background-image: url('../Media/Images/sfondo_sito1.png');
+    filter: blur(0px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    display:flex;
+    text-align:center;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border: 5px solid aliceblue;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+    z-index:999;
+}
+
+#title{
+  font-size: 290%;
+}
+
+.centercontent{
+    position:relative;
+    background-color: white; 
+    padding: 5px;
+    border: 15px solid aliceblue;
+    border-radius: 0;
+    text-align:center;
+    top: 0%;
+    left:22%;
+    width: 50%;
+    height:100%;
+}
+
+p{
+    color: black;
+    display: inline;
+    font-family: Helvetica;
+    font-size: 17px;
+}
+
+.centrato{
+    text-align: center;
+}
+
+h3{
+    color: #4b5320;
+}
+
+a{
+    color: blue;
+}
+
+.white_a{
+  color:transparent;
+}
+
+.white_a:hover{
+  color:transparent;
+}
+
+h1{
+    color: #4b5320;
+    text-align: center;
+}
+
+td{
+    border: 0px solid #ddd;
+}
+
+.white{
+    border: 0px solid #fff;
+}
+
+.centertitle{
+    text-align: center;
+    border: 0px solid #fff;
+}
+
+.transparent:hover{
+    background-color: transparent;
+}
+
+img{
+    max-width: 100%;
+    Height:auto;
+}
+
+table{
+    width: 100%;
+    height:100%;
+}
+
+#container {
+    position: fixed;
+    width: 200px;
+    bottom:0;
+    background-color: transparent;
+    right: 0;
+    top:0;
+    overflow: hidden;
+  }
+  
+#slider {
+    position: absolute;
+    top: 0;
+    right: -215px;
+    width:  75%;
+    height: fit-content;
+    background-color: white;
+    border: 0px solid aliceblue;
+    transition: right 0.3s;
+}
+
+#container:hover #slider {
+    right: 0;
+}
+
+main#carousel {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 8;
+  --middle: 3;
+  --position: 1;
+}
+
+div.item {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform:rotateY(calc(-10deg * var(--r))) 
+  translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+  margin: auto;
+  padding: 10px;
+}
+  
+div.item:nth-of-type(1) {
+  --offset: 1;
+  background-color: aliceblue;
+}
+
+div.item:nth-of-type(2) {
+  --offset: 2;
+  background-color: aliceblue;
+}
+
+div.item:nth-of-type(3) {
+  --offset: 3;
+  background-color: aliceblue;
+}
+
+div.item:nth-of-type(4) {
+  --offset: 4;
+  background-color: aliceblue;
+}
+
+div.item:nth-of-type(5) {
+  --offset: 5;
+  background-color: aliceblue;
+}
+
+div.item:nth-of-type(6) {
+  --offset: 6;
+  background-color: aliceblue;
+}
+
+div.item:nth-of-type(7) {
+  --offset: 7;
+  background-color: aliceblue;
+}
+
+div.item:nth-of-type(8) {
+  --offset: 8;
+  background-color: aliceblue;
+}
+
+input:nth-of-type(1):checked ~ main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2):checked ~ main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3):checked ~ main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4):checked ~ main#carousel {
+  --position: 4;
+}
+
+input:nth-of-type(5):checked ~ main#carousel {
+  --position: 5;
+}
+
+input:nth-of-type(6):checked ~ main#carousel {
+  --position: 6;
+}
+
+input:nth-of-type(7):checked ~ main#carousel {
+  --position: 7;
+}
+
+input:nth-of-type(8):checked ~ main#carousel {
+  --position: 8;
+}
+
+::selection{
+  background-color: #4b5320;
+  color: white;
+}

@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    font-family: sans-serif;
+}
+
+.background{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    z-index: -1;
+    background-image: url('../Media/Images/sfondo_sito1.png');
+    filter: blur(0px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content{
+    background-color: rgb(255, 255, 255); 
+    padding:5px;
+    border: 15px solid aliceblue;
+    border-radius: 0;
+    text-align:left;
+    justify-content: left;
+    align-items: left;
+    width: 35%;
+    height:fit-content;
+}
+
+.banner{
+    display:flex;
+    text-align:center;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border: 4px solid aliceblue;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+    z-index:999;
+}
+
+.right_content{
+    background-color: rgb(255, 255, 255); 
+    padding:5px;
+    position: relative;
+    border: 15px solid aliceblue;
+    border-radius: 0;
+    width: 20%; 
+    top:100%;
+    left: 40%;
+    height: fit fit-content;
+    text-align: center;
+    overflow: auto;
+}
+
+#title{
+    font-size: 290%;
+}
+
+.right_content table{
+    max-height: 100%;
+    width: auto;
+}
+
+p{
+    color: black;
+    display: inline;
+    font-family: Helvetica;
+    font-size: 17px;
+}
+
+.centrato{
+    text-align: center;
+}
+
+h3{
+    color: #4b5320;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    color:blueviolet;
+}
+
+h1{
+    color: #4b5320;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    Height:auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+audio {
+    max-width: 100%;
+}
+
+.banner table{
+    width: 100%;
+    height:100%;
+}
+
+::selection{
+    background-color: #4b5320;
+    color: white;
+}
