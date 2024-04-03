@@ -12,7 +12,14 @@ let questions = [
   "Is the EAASSF manned?",
   "What unit is most commonly seen alongside EMRPFs?",
   "What is the name of the EAHSM in the file?",
-  "Can the EMRPF be used in a civilian support role?"
+  "Can the EMRPF be used in a civilian support role?",
+  "How tall is an EM?",
+  "From what language does the Zvezda Bogov take its name?",
+  "What is the StahlEngel's speciality?",
+  "Who do the Stille Voglers protect?",
+  "What does TaevasHüpe Üksus mean in English?",
+  "Does the Redemption Legion of Europa (RLE) care about collateral damage?",
+  "What type of machine is Zorya?"
 ];
 
 let answers = [
@@ -27,7 +34,14 @@ let answers = [
     "No",
     "Mastodontes",
     "Brutus",
-    "Yes"
+    "Yes",
+    "10 Meters",
+    "Russian",
+    "Modern Warfare",
+    "Civilians and Important targets",
+    "Sky Jump Battalion",
+    "No",
+    "Prototype EGPIM"
 
 ];
 
