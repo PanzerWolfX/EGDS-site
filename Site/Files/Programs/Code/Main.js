@@ -12,20 +12,35 @@ let answers = [
 "Grievous"
 ];
 
-function getRandomIndex(max) {
-  return Math.floor(Math.random() * max);
+function checkAnswer() {
+  const userAnswer = document.getElementById('answerInput').value.trim();
+  const currentQuestionIndex = questions.indexOf(document.getElementById('question').innerText);
+  
+  if (currentQuestionIndex !== -1 && userAnswer.toLowerCase() === answers[currentQuestionIndex].toLowerCase()) {
+      score += 1;
+      document.getElementById('scoreDisplay').innerText = "Score: " + score;
+      alert("Correct");
+  }
+  else {
+      alert("Incorrect. Correct answer: " + answers[currentQuestionIndex]);
+  }    
+  
+  document.getElementById('answerInput').value = '';
 }
 
-function getRandomQuestion(questions) {
-  const index = getRandomIndex(questions.length);
-  return questions[index];
-}
-
-function displayRandomQuestion() {
-  const randomQuestion = getRandomQuestion(questions);
-  document.getElementById('question').innerText = randomQuestion;
+function generateNewQuestion() {
+  displayRandomQuestion();
 }
 
 displayRandomQuestion();
+document.getElementById('scoreDisplay').innerText = "Score: " + score;
 
-document.getElementById('generateQuestion').addEventListener('click', displayRandomQuestion);
+document.getElementById('submitAnswer').addEventListener('click', checkAnswer);
+
+document.getElementById('generateQuestion').addEventListener('click', generateNewQuestion);
+
+document.getElementById('answerInput').addEventListener('keypress', function (e) {
+  if (e.key === 'Enter') {
+      checkAnswer();
+  }
+});
