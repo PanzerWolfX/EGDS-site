@@ -1,0 +1,64 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue; /* Change the color as desired */
+    position: absolute;
+    bottom: 10%;
+    left: 47%;
+}
+
+.bullet {
+    width: 10px;
+    height: 10px;
+    background-color: green; /* Change the color as desired */
+    position: absolute;
+}
+
+html{
+    overflow: hidden;
+}
+
+.falling-square {
+    width: 42px; /* Adjust size as needed */
+    height: 86px; /* Adjust size as needed */
+    background-color: transparent; /* Change the color as desired */
+    background-image: url(Enemy.png);
+    position: absolute;
+    background-size: cover;
+}
+
+body {
+    background-image: url(Bkg.jpg);
+}
+
+.leftBW{
+    position: absolute;
+    background-color: transparent;
+    background-image: url(BW.jpg);
+    padding:0px;
+    border: 0px solid aliceblue;
+    background-position: center;
+    background-repeat: repeat-y;
+    border-radius: 0;
+    width: 25%;
+    height:100vw;
+    top:0;
+    left:0;
+}
+
+.rightBW{
+    position: absolute;
+    background-color: transparent;
+    background-image: url(BW.jpg); 
+    transform: scaleX(-1);
+    padding:5px;
+    border: 0px solid aliceblue;
+    background-position: center;
+    background-size: auto auto;
+    background-repeat: repeat-y;
+    border-radius: 0;
+    right:0;
+    width: 25%;
+    height:100vw;
+    top:0;
+}
