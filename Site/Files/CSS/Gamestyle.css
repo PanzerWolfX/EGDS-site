@@ -1,16 +1,18 @@
 .square {
     width: 100px;
     height: 100px;
-    background-color: blue; /* Change the color as desired */
+    background-color: transparent; /* Change the color as desired */
     position: absolute;
     bottom: 10%;
     left: 47%;
+    background-image: url(../Media/Images/Assets/Turret.png);
 }
 
 .bullet {
-    width: 10px;
-    height: 10px;
-    background-color: green; /* Change the color as desired */
+    width: 13px;
+    height: 15px;
+    background-color: transparent; /* Change the color as desired */
+    background-image: url(../Media/Images/Assets/Bullet.png);
     position: absolute;
 }
 
@@ -22,19 +24,19 @@ html{
     width: 42px; /* Adjust size as needed */
     height: 86px; /* Adjust size as needed */
     background-color: transparent; /* Change the color as desired */
-    background-image: url(Enemy.png);
+    background-image: url(../Media/Images/Assets/Enemy.png);
     position: absolute;
     background-size: cover;
 }
 
 body {
-    background-image: url(Bkg.jpg);
+    background-image: url(../Media/Images/Assets/Bkg.jpg);
 }
 
 .leftBW{
     position: absolute;
     background-color: transparent;
-    background-image: url(BW.jpg);
+    background-image: url(../Media/Images/Assets/BW.jpg);
     padding:0px;
     border: 0px solid aliceblue;
     background-position: center;
@@ -49,7 +51,7 @@ body {
 .rightBW{
     position: absolute;
     background-color: transparent;
-    background-image: url(BW.jpg); 
+    background-image: url(../Media/Images/Assets/BW.jpg); 
     transform: scaleX(-1);
     padding:5px;
     border: 0px solid aliceblue;
@@ -61,4 +63,19 @@ body {
     width: 25%;
     height:100vw;
     top:0;
+}
+
+.lable{
+    position:absolute;
+    z-index: 1;
+    top:0;
+    left:0;
+    width:200px;
+    height:fit-content;
+    background-color: black;
+}
+
+#score{
+    color:white;
+    font-family: sans-serif;
 }

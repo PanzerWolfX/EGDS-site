@@ -80,12 +80,8 @@ a{
     color: blue;
 }
 
-.white_a{
-  color:transparent;
-}
-
-.white_a:hover{
-  color:transparent;
+.color-a{
+  color:darkblue;
 }
 
 h1{
