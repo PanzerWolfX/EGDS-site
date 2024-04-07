@@ -1,15 +1,37 @@
 const TITLE = 'Quiz';
 
 let questions = [
-    "What was the name of the clone commander that last served Kenobi?",
-    "What is the name of the thing that allows you to type?",
-    "What is the name of the General of the droid army in Star Wars?"
+    "How can EuroGuardian Defense Solutions",
+    "What colour was the EMBT's camo during the initial stages of developement?",
+    "Can the Kolos see through buildings?",
+    "When did the Euro-Ottoman war begin?",
+    "When was EGDS founded?",
+    "When was EGAAR instituted?",
+    "How many people can the Streifer carry?",
+    "What is the EHB's maximum range with no refuel?",
+    "Are the Mirage and Hekurani stealth?",
+    "Is the EAASSF manned?",
+    "What are EMRPFs most commonly seen with?",
+    "Can the EMRPFs be used for civilian aid?",
+    "What is the EGPIM's purpose?",
+    "In its page, what is the Mastodonte in the pcture named?"
 ];
 
 let answers = [
-    "Cody",
-    "Keyboard",
-    "Grievous"
+    "EGDS",
+    "Green",
+    "Yes, if is is linked to a drone",
+    "2035",
+    "2030",
+    "2036",
+    "A full squad",
+    "10000 Kms",
+    "Yes",
+    "No",
+    "Mastodontes",
+    "Yes",
+    "Be the workhorse",
+    "Brutus"
 ];
 
 let score = 0;

@@ -5,7 +5,6 @@ body, html {
     overflow-x: hidden;
     font-family:sans-serif;
     height: fit-content;
-    user-select: none;
 }
 
 .background{
@@ -35,6 +34,7 @@ body, html {
     width: 100%;
     height: 100px;
     z-index:999;
+    user-select: none;
 }
 
 #title{
@@ -53,6 +53,7 @@ body, html {
     left:0%;
     width: 30%;
     height:100%;
+    user-select: none;
 }
 
 .centrato{
@@ -107,7 +108,7 @@ table{
     right: 0;
     top:0;
     overflow: hidden;
-  }
+}
   
 #slider {
     position: absolute;
@@ -118,6 +119,10 @@ table{
     background-color: transparent;
     border: 0px solid aliceblue;
     transition: right 0.3s;
+}
+
+#container, #slider{
+    user-select: auto !important;
 }
 
 #container:hover #slider {
