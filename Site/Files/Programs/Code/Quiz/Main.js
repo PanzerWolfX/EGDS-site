@@ -14,7 +14,15 @@ let questions = [
     "What are EMRPFs most commonly seen with?",
     "Can the EMRPFs be used for civilian aid?",
     "What is the EGPIM's purpose?",
-    "In its page, what is the Mastodonte in the pcture named?"
+    "In its page, what is the Mastodonte in the pcture named?",
+    "At the time of the shot, where was the Nebeská Hlídka?",
+    "What variety of roles can the Legions perform?",
+    "What does Zvezda Bogov mean?",
+    "What is the Zvezda Bogov?",
+    "Should civilians be warned if the Redemption legion of Europa Division gets assigned to the front where they live?",
+    "What is the Stille Vogler's speciality?",
+    "What machien is Zorya?",
+    "Who controls all EGDS troops?"
 ];
 
 let answers = [
@@ -31,7 +39,15 @@ let answers = [
     "Mastodontes",
     "Yes",
     "Be the workhorse",
-    "Brutus"
+    "Brutus",
+    "Alpha Centauri",
+    "Any role",
+    "Star of the Gods",
+    "A space station",
+    "Absolutely",
+    "Defense and Protection",
+    "A Prototype EGPIM",
+    "Ido"
 ];
 
 let score = 0;
