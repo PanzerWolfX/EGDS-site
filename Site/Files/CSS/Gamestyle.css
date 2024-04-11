@@ -77,10 +77,15 @@ body {
 
 #score{
     color:white;
-    font-family: sans-serif;
+    font-family: sans-serif; 
 }
 
 .whitetxt{
     color:white;
     font-family: sans-serif;
+}
+
+.redtxt{
+    font-family: sans-serif;
+    color: darkred;
 }
