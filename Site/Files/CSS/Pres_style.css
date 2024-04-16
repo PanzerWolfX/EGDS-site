@@ -149,7 +149,7 @@ main#carousel {
   justify-content: center;
   overflow: hidden;
   transform-style: preserve-3d;
-  perspective: 250px;
+  perspective: 200px;
   --items: 8;
   --middle: 3;
   --position: 1;
