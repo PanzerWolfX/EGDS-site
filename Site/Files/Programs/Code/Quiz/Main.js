@@ -21,14 +21,14 @@ let questions = [
     "What is the Zvezda Bogov?",
     "Should civilians be warned if the Redemption legion of Europa Division gets assigned to the front where they live?",
     "What is the Stille Vogler's speciality?",
-    "What machien is Zorya?",
+    "What machine is Zorya?",
     "Who controls all EGDS troops?"
 ];
 
 let answers = [
     "EGDS",
     "Green",
-    "Yes, if is is linked to a drone",
+    "Yes, if is linked to a drone",
     "2035",
     "2030",
     "2036",
