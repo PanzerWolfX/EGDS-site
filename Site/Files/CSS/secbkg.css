@@ -67,3 +67,18 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+.backgroundSAZ{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+    z-index: -1;
+    background-image: url('../Media/Cripticmedia/Soma/Poster.jpeg');
+    filter: blur(3px) brightness(50%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
