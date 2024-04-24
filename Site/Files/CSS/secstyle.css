@@ -122,4 +122,6 @@ audio{
 .highlight:hover{
     background-color: #fff;
     border: 2px solid whitesmoke;
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
 }
