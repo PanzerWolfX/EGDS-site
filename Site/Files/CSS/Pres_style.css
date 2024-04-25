@@ -116,29 +116,20 @@ table{
     height:100%;
 }
 
-#container {
-    position: fixed;
-    width: 200px;
-    bottom:0;
-    background-color: transparent;
-    right: 0;
-    top:0;
-    overflow: hidden;
-  }
-  
-#slider {
-    position: absolute;
-    top: 0;
-    right: -215px;
-    width:  75%;
-    height: fit-content;
-    background-color: white;
-    border: 0px solid aliceblue;
-    transition: right 0.3s;
+#footer{
+  position: fixed;
+  left:22.65%;
+  bottom:-51.5%;
+  width:50%;
+  height:60%;
+  background-color: white;
+  border:10px solid rgb(91, 119, 145);
+  overflow: hidden;
+  transition: bottom 0.2s;
 }
 
-#container:hover #slider {
-    right: 0;
+#footer:hover {
+  bottom:0;
 }
 
 main#carousel {
@@ -292,4 +283,8 @@ input:nth-of-type(8):checked ~ main#carousel div.item:nth-of-type(8):hover {
 #btnenl:hover{
   transform: scale(1.3);
   transition: transform 0.2s ease;
+}
+
+.nodot{
+  list-style-type: none;
 }
