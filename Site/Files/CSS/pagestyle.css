@@ -48,16 +48,15 @@ body {
 
 .right_content{
     background-color: rgb(255, 255, 255); 
-    padding:5px;
+    padding:3px;
     position: fixed;
-    border: 15px solid aliceblue;
+    border: 10px solid aliceblue;
     border-radius: 0;
     width: 20%; 
     top:15%;
     right:0;
-    height: 65%;
+    height: 85%;
     text-align: center;
-    overflow: auto;
     overflow: hidden;
 }
 
@@ -151,4 +150,3 @@ audio {
     transform: scale(1.3);
     transition: transform 0.2s ease;
   }
-  
