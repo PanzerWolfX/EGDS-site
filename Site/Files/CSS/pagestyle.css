@@ -49,13 +49,13 @@ body {
 .right_content{
     background-color: rgb(255, 255, 255); 
     padding:5px;
-    position: relative;
+    position: absolute;
     border: 15px solid aliceblue;
     border-radius: 0;
     width: 20%; 
-    top:100%;
-    left: 40%;
-    height: fit fit-content;
+    top:15%;
+    right:0;
+    height: 50%;
     text-align: center;
     overflow: auto;
 }
