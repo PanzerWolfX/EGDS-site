@@ -49,24 +49,20 @@ body {
 .right_content{
     background-color: rgb(255, 255, 255); 
     padding:5px;
-    position: absolute;
+    position: fixed;
     border: 15px solid aliceblue;
     border-radius: 0;
     width: 20%; 
     top:15%;
     right:0;
-    height: 50%;
+    height: 65%;
     text-align: center;
     overflow: auto;
+    overflow: hidden;
 }
 
 #title{
     font-size: 290%;
-}
-
-.right_content table{
-    max-height: 100%;
-    width: auto;
 }
 
 p{
