@@ -215,6 +215,11 @@ div.item:nth-of-type(10) {
   background-color: aliceblue;
 }
 
+div.item:nth-of-type(11) {
+  --offset: 11;
+  background-color: aliceblue;
+}
+
 input:nth-of-type(1):checked ~ main#carousel {
   --position: 1;
 }
@@ -255,6 +260,9 @@ input:nth-of-type(10):checked ~ main#carousel {
   --position: 10;
 }
 
+input:nth-of-type(11):checked ~ main#carousel {
+  --position: 11;
+}
 
 ::selection{
   background-color: #4b5320;
@@ -270,7 +278,8 @@ input:nth-of-type(6):checked ~ main#carousel div.item:nth-of-type(6):hover,
 input:nth-of-type(7):checked ~ main#carousel div.item:nth-of-type(7):hover,
 input:nth-of-type(8):checked ~ main#carousel div.item:nth-of-type(8):hover,
 input:nth-of-type(9):checked ~ main#carousel div.item:nth-of-type(9):hover,
-input:nth-of-type(10):checked ~ main#carousel div.item:nth-of-type(10):hover{
+input:nth-of-type(10):checked ~ main#carousel div.item:nth-of-type(10):hover,
+input:nth-of-type(11):checked ~ main#carousel div.item:nth-of-type(11):hover{
   transform: scale(1.1);
   transition: transform 0.2s ease;
 }
