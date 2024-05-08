@@ -150,3 +150,30 @@ audio {
     transform: scale(1.3);
     transition: transform 0.2s ease;
   }
+
+  #footer{
+    position: fixed;
+    left:36.5%;
+    bottom:-51.5%;
+    width:41.3%;
+    height:60%;
+    background-color: white;
+    border:10px solid rgb(91, 119, 145);
+    overflow: hidden;
+    transition: bottom 0.2s;
+    z-index:2;
+    text-align: center;
+    min-width: 41.3%;
+  }
+  
+  #footer:hover {
+    bottom:0;
+  }
+
+  .nodot{
+    list-style-type: none;
+  }
+  
+  li{
+    margin: 0;
+  }
