@@ -22,7 +22,7 @@ body {
     position: absolute;
     top: 100vh;
     width: 100%;
-    height: 110vh;
+    height: 150vh;
     background-color: transparent;
     animation: crawl 60s linear forwards;
     overflow: hidden;

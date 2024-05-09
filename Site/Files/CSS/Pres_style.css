@@ -288,9 +288,10 @@ input:nth-of-type(11):checked ~ main#carousel div.item:nth-of-type(11):hover{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width:10.8%;
+  height:fit-content;
   z-index: 1;
+  border: 5px solid aliceblue;
 }
 
 .btn-content a {
@@ -298,7 +299,7 @@ input:nth-of-type(11):checked ~ main#carousel div.item:nth-of-type(11):hover{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  border: 5px solid aliceblue;
+  padding: 7px;
 }
 
 .d-content:hover .btn-content {
