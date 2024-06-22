@@ -145,8 +145,8 @@ main#carousel {
   overflow: hidden;
   transform-style: preserve-3d;
   perspective: 200px;
-  --items: 10;
-  --middle: 3;
+  --items: 12;
+  --middle: 5;
   --position: 1;
 }
 
@@ -220,6 +220,11 @@ div.item:nth-of-type(11) {
   background-color: aliceblue;
 }
 
+div.item:nth-of-type(12) {
+  --offset: 12;
+  background-color: aliceblue;
+}
+
 input:nth-of-type(1):checked ~ main#carousel {
   --position: 1;
 }
@@ -264,6 +269,10 @@ input:nth-of-type(11):checked ~ main#carousel {
   --position: 11;
 }
 
+input:nth-of-type(12):checked ~ main#carousel {
+  --position: 12;
+}
+
 ::selection{
   background-color: #4b5320;
   color: white;
@@ -279,7 +288,8 @@ input:nth-of-type(7):checked ~ main#carousel div.item:nth-of-type(7):hover,
 input:nth-of-type(8):checked ~ main#carousel div.item:nth-of-type(8):hover,
 input:nth-of-type(9):checked ~ main#carousel div.item:nth-of-type(9):hover,
 input:nth-of-type(10):checked ~ main#carousel div.item:nth-of-type(10):hover,
-input:nth-of-type(11):checked ~ main#carousel div.item:nth-of-type(11):hover{
+input:nth-of-type(11):checked ~ main#carousel div.item:nth-of-type(11):hover
+input:nth-of-type(11):checked ~ main#carousel div.item:nth-of-type(12):hover{
   transform: scale(1.1);
   transition: transform 0.2s ease;
 }
