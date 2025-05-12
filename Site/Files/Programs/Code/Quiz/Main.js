@@ -1,7 +1,7 @@
 const TITLE = 'Quiz';
 
 let questions = [
-    "How can EuroGuardian Defense Solutions",
+    "What is EuroGuardian Defense Solutions' acronym?",
     "What colour was the EMBT's camo during the initial stages of developement?",
     "Can the Kolos see through buildings?",
     "When did the Euro-Ottoman war begin?",
@@ -32,7 +32,7 @@ let answers = [
     "2035",
     "2030",
     "2036",
-    "A full squad",
+    "12",
     "10000 Kms",
     "Yes",
     "No",
